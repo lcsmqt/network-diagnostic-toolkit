@@ -1,0 +1,20 @@
+# Copie este arquivo para config/config.yaml e ajuste para o seu ambiente.
+# Regra de seguranca: NUNCA adicione hosts de terceiros aqui. Use apenas
+# enderecos que voce possui ou administra (localhost, sua propria rede local).
+
+allowed_targets:
+  - "127.0.0.1"
+  - "localhost"
+
+dns_lookups:
+  - "localhost"
+
+ping_targets:
+  - "127.0.0.1"
+
+port_checks:
+  - target: "127.0.0.1"
+    ports: [22, 80, 443]
+
+report_dir: reports
+log_level: INFO
