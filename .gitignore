@@ -4,7 +4,7 @@ __pycache__/
 venv/
 .env
 config/config.yaml
-reports/
+/reports/
 *.egg-info/
 .pytest_cache/
 .coverage
