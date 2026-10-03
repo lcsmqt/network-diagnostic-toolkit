@@ -2,10 +2,9 @@
 
 import json
 
+from src.models import DnsResult, InterfaceInfo, NetworkReport, PingResult, PortCheckResult
 from src.reports.json_report import render_json
 from src.reports.markdown_report import render_markdown
-
-from src.models import DnsResult, InterfaceInfo, NetworkReport, PingResult, PortCheckResult
 
 
 def _sample_report() -> NetworkReport:
