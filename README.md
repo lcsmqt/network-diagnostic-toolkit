@@ -97,10 +97,6 @@ pytest
 
 Todos os testes usam mocks de `socket`/`psutil` -- nenhum teste depende de conectividade de rede real, então a suite roda igual em qualquer ambiente (inclusive CI).
 
-## Capturas de Tela
-
-[Adicione capturas de tela do relatorio gerado aqui]
-
 ## Estrutura do Projeto
 
 ```
